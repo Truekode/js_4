@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.products {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-item > img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.btn-cart {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: url("../img/card.svg") no-repeat;
+    border: none;
+}
+
+.btn-cart:hover,
+.btn-cart:focus {
+    opacity: 0.7;
+}
